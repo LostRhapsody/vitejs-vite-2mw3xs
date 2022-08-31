@@ -11,6 +11,27 @@ const count = ref(0);
 <template>
   <table>
     <tr>
+      <th>
+        Compare Hair Dryers
+        <p>
+          To start over, or to view all available products, click the
+          <strong>Reset</strong> button.
+        </p>
+        <button
+          style="
+            color: black;
+            border: solid black 0.1em;
+            border-radius: 0 0 0 0;
+          "
+        >
+          Reset
+        </button>
+      </th>
+      <td v-for="model in prodsObj" :key="model.Model">
+        <img src="{{" model.card.img }} />
+      </td>
+    </tr>
+    <tr>
       <th>Model #</th>
       <td v-for="model in prodsObj" :key="model.Model">
         {{ model.Model }}
