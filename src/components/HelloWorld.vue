@@ -28,7 +28,7 @@ const count = ref(0);
         </button>
       </th>
       <td v-for="model in prodsObj" :key="model.Model">
-        <img src="{{" model.card.img }} />
+        <span v-html="model.card.img"></span>
       </td>
     </tr>
     <tr>

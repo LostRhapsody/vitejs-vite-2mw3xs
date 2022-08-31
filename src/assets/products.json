@@ -6,7 +6,7 @@
     "UltraFastDrying": "Yes",
     "IQConcentrator": "Yes",
     "card": {
-      "img": "",
+      "img": "<img src='/src/assets/HyperAirPremium.png' />",
       "title": "",
       "link": ""
     }
@@ -18,7 +18,7 @@
     "UltraFastDrying": "Yes",
     "IQConcentrator": "Yes",
     "card": {
-      "img": "",
+      "img": "<img src='/src/assets/HyperAirPremium.png' />",
       "title": "",
       "link": ""
     }
@@ -30,7 +30,7 @@
     "UltraFastDrying": "Yes",
     "IQConcentrator": "Yes",
     "card": {
-      "img": "",
+      "img": "<img src='/src/assets/HyperAirPremium.png' />",
       "title": "",
       "link": ""
     }
